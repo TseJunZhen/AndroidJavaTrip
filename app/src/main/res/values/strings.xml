@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">JAVATrip</string>
     <string name="buttonLogin_name">Login</string>
-    <string name="buttonRegister_name">Register</string>
-
+    <string name="buttonSignUp_name">SignUp</string>
+    <string name="UserName_name">UserName</string>
+    <string name="Name_name">Name</string>
+    <string name="Mail_name">Mail</string>
+    <string name="Age_name">Age</string>
+    <string name="Password_name">Password</string>
+    <string name="Register_name">Register</string>
 </resources>
