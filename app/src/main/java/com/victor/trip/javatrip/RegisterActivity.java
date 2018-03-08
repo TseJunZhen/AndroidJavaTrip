@@ -18,14 +18,14 @@ public class RegisterActivity extends AppCompatActivity {
         final EditText Mail = (EditText) findViewById(R.id.etMail);
         final EditText Age = (EditText) findViewById(R.id.etAge);
         final EditText Password = (EditText) findViewById(R.id.etPassword);
-        final Button Register = (Button) findViewById(R.id.btnRegister);
+        final Button Login = (Button) findViewById(R.id.btnR);
 
-        /*Register.setOnClickListener(new View.OnClickListener() {
+        Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                 RegisterActivity.this.startActivity(intent);
             }
-        });*/
+        });
     }
 }

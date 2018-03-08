@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Button Register = (Button) findViewById(R.id.btnRegister);
+        final Button Register = (Button) findViewById(R.id.btnRegister1);
         final Button Login = (Button) findViewById(R.id.btnLogin);
 
         Register.setOnClickListener(new View.OnClickListener() {
