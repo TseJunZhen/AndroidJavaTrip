@@ -18,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
 
         TextView text = (TextView) findViewById(R.id.etUserName);
         text.setTextColor(Color.parseColor("#FFFFFF"));
+        ((TextView) findViewById(R.id.textView)).setTextColor(Color.parseColor("#FFFFFF"));
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
